@@ -13,7 +13,7 @@
     <div class="card">
 
         <h1>Top 5 best Betaalde voetballers ter wereld</h1>
-        <table border="1">
+        <table>
             <thead>
                 <tr>
                     <th>Naam</th>

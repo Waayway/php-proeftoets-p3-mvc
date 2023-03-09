@@ -2,4 +2,25 @@ body {
     font-family: sans-serif;
     background-color: #515151;
     color: white;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #003234;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(30, 222, 30);
+}
+
+table thead {
+    background-color: #00767a;
 }
