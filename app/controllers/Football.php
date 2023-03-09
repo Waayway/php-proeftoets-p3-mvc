@@ -10,6 +10,8 @@ class Football extends BaseController
     }
     public function index($id = NULL, $name = NULL)
     {
-        $this->view('home/index', $data);
+        $data = [];
+        $data["voetballers"] = $this->model->getFootballers();
+        $this->view('football/index', $data);
     }
 }
